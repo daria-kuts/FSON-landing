@@ -1,12 +1,17 @@
 * {
     font-family: "Montserrat", Helvetica;
-    list-style-type: none;
-}
 
+}
+ul, li{
+ list-style-type: none;   
+}
 
 a {
     text-decoration: none;
     color: black;
+}
+button{
+    cursor: pointer;
 }
 
 .header-navigation-logo {
@@ -22,17 +27,272 @@ a {
     font-style: italic;
 }
 
+.header {}
+
+.header-navigation {}
+
+.first-logo {}
+
+/*hero-banner*/
 .hero-banner {
     background-image: url(/images/hero.jpg);
     width: 1136px;
     height: 600px;
     background-size: contain;
     border-radius: 20px;
+    background-repeat: no-repeat;
 }
-h1{
+
+.hero-banner-title {
+    color: #fff;
     font-weight: 500;
-        font-size: 28px;
-        line-height: 1.21;
-        letter-spacing: -0.03em;
-        color: #FAFAFA;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.03em;
 }
+
+.button-primary {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+   background-color: #FD9222;
+}
+.button-primary:hover{
+    color: #FD9222;
+    background-color: #FCF1E0;
+}
+
+.button-secondary {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+.button-secondary:hover{
+    color: #FD9222;
+    background-color: #fff
+}
+
+.hero-banner-button-scroll {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+     letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-banner-button-scroll-image {}
+
+/*benefits*/
+.benefits {
+    background-color: #1e1823;
+}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-title {
+    font-weight: 600;
+     font-size: 18px;
+    color: #fff;
+}
+
+.benefits-list-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.benefits-list-item-images{}
+
+/*taste*/
+.taste {}
+
+.taste-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;}
+
+    .text-hightlight{
+        color: #fd9222;
+    }
+
+.taste-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.taste-list {
+
+}
+
+.taste-list-item {
+
+}
+
+.taste-list-item-image {
+
+}
+
+.taste-list-item-text {
+    font-weight: 600;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color:#111;        ;
+}
+.white-text{
+    color: #fff;
+}
+.taste-list-item-choco{
+    background-color: #FD9222;
+}
+.taste-list-item-nuts{
+    background-color: #1e1823;
+}
+ /* how its made */
+ .recipe {}
+
+ .recipe-title { font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;}
+
+ .recipe-image {}
+
+ .recipe-subtitle {
+    font-weight: 600;
+     font-size: 18px;
+     line-height: 133%;
+     color: #111;
+
+ }
+
+ .recipe-subtitle-list {}
+
+ .recipe-subtitle-list-item {}
+
+ .recipe-subtitle-list-text {font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;}
+ /* rewiev */
+ .review {}
+
+ .review-title {
+    font-weight: 600;
+     font-size: 24px;
+     line-height: 117%;
+     letter-spacing: -0.03em;
+     text-transform: uppercase;
+     text-align: center;
+ }
+
+ .review-list {}
+
+ .review-list-item {
+
+ }
+
+ .review-list-item-image {}
+
+ .review-list-item-title {
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 133%;
+        text-align: center;
+ }
+
+ .review-list-item-subtitle {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(17, 17, 17, 0.7);
+ }
+
+ .review-button-secondary {}
+
+ .review-button {
+    font-weight: 600;
+     font-size: 18px;
+     color: #111;
+ }
+ .review-button:hover{
+    color: #fff;
+    background-color: #FD9222;
+ }
+ /* footer */
+ .bottom {
+    background-color: #1e1823;
+ }
+
+ .bottom-title {
+    font-weight: 500;
+     font-size: 28px;
+     line-height: 121%;
+     letter-spacing: -0.02em;
+     color: #fff;
+ }
+
+ .bottom-contacts {}
+
+ .bottom-contacts-title {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-align: center;
+        color: #fff;
+ }
+
+ .bottom-contacts-address {}
+
+ .bottom-contacts-address-list {
+ 
+ }
+
+ .bottom-contacts-address-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+
+}
+
+ .contacts-addres-number {
+    color: #fff;
+ }
+
+ .contacts-addres-email {
+    color: #fff;
+ }
+
+ .bottom-navigation {}
+
+ .bottom-navigation-list {
+    }
+
+ .bottom-navigation-list-item {
+
+ }
+
+ .bottom-navigation-list-item-anchor { color: #fff;}
+
+ .bottom-subscribe {}
+
+ .bottom-subscribe-email {}
+
+ .bottom-subscribe-submit {}
